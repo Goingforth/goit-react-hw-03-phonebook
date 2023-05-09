@@ -1,5 +1,6 @@
 import { List, Message } from './List.styled';
-import ContactItem from 'components/App/ContactItem/ContactItem';
+//import ContactItem from 'components/App/ContactItem/ContactItem';
+import ContactItem from 'components/ContactItem/ContactItem';
 const ContactList = ({ contacts, onDeleteContact }) => {
   return (
     <List>
